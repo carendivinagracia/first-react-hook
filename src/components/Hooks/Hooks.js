@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Hooks() {
   // default value for count is 0
   const [count, setCount] = useState(0);
+  // similar to componentDidMount and componentDidUpdate
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
   //default value for fruit is 'banana';
   const [fruit, setFruit] = useState("banana");
   const fruits = [
