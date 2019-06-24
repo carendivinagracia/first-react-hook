@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-###Rules on Hooks
+### Rules on Hooks
 Hooks are JavaScript functions, but they impose two additional rules:
 
 1. Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
